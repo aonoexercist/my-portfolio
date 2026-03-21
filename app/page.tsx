@@ -85,7 +85,7 @@ const techStack = [
   {
     icon: "⚙️",
     title: "Backend",
-    skills: ["Laravel", "PHP", "CodeIgniter", "Frappe ERP Framework", "Python", "Node.js", "Express.js", "PostgreSQL"],
+    skills: ["Laravel", "PHP", "CodeIgniter", "Frappe ERP Framework", "Python", "Node.js", "Express.js"],
   },
   {
     icon: "📱",
@@ -95,7 +95,7 @@ const techStack = [
   {
     icon: "🗄️",
     title: "Database",
-    skills: ["MySQL", "MariaDB", "Firebase", "MongoDB", "SQLite"],
+    skills: ["MySQL", "MariaDB", "Firebase", "MongoDB", "SQLite", "PostgreSQL"],
   },
   {
     icon: "🚀",

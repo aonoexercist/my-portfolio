@@ -241,7 +241,7 @@ export default function Home() {
               <p className="text-accent-light text-sm font-medium">USTP – Cagayan de Oro City</p>
               <p className="text-muted text-sm mt-1 mb-3">2013 – 2018</p>
               <a
-                href="https://drive.google.com/file/d/1cPji_NRngj1Q3GKEKzyf3xNv5meQ3Tah/view?usp=drive_link"
+                href="/images/xercis-silao-diploma.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
@@ -251,16 +251,17 @@ export default function Home() {
             </div>
             <div className="bg-card border border-card-border rounded-2xl p-6">
               <h3 className="text-lg font-semibold text-foreground mb-1">
-                Skillsoft Digital Badges
+                Civil Service Eligibility
               </h3>
-              <p className="text-muted text-sm mt-1 mb-3">Professional development certifications</p>
+              <p className="text-accent-light text-sm font-medium">Civil Service Commission</p>
+              <p className="text-muted text-sm mt-1 mb-3">Career Service Professional</p>
               <a
-                href="https://skillsoft.digitalbadges.skillsoft.com/profile/xercissilao128100/wallet"
+                href="/images/civil-service-certification.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
               >
-                View Badges →
+                View Certificate →
               </a>
             </div>
             <div className="bg-card border border-card-border rounded-2xl p-6">
@@ -270,7 +271,7 @@ export default function Home() {
               <p className="text-accent-light text-sm font-medium">DTI Certification</p>
               <p className="text-muted text-sm mt-1 mb-3">Department of Trade and Industry – Philippines</p>
               <a
-                href="https://drive.google.com/file/d/1eiF5hDEQk7WQiK4QDeNogQjehX8L8G0u/view?usp=drive_link"
+                href="/images/dti-fullstack-development.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
@@ -285,12 +286,26 @@ export default function Home() {
               <p className="text-accent-light text-sm font-medium">DTI Certification</p>
               <p className="text-muted text-sm mt-1 mb-3">Department of Trade and Industry – Philippines</p>
               <a
-                href="https://drive.google.com/file/d/1ChvG09om_Y9n_dvMlA8kPizYFUAaB_4e/view?usp=drive_link"
+                href="/images/dti-mobile-app-development.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
               >
                 View Certificate →
+              </a>
+            </div>
+            <div className="bg-card border border-card-border rounded-2xl p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-1">
+                Skillsoft Digital Badges
+              </h3>
+              <p className="text-muted text-sm mt-1 mb-3">Professional development certifications</p>
+              <a
+                href="https://skillsoft.digitalbadges.skillsoft.com/profile/xercissilao128100/wallet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
+              >
+                View Badges →
               </a>
             </div>
           </div>

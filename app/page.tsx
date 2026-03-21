@@ -72,7 +72,7 @@ const projects = [
       "Integrated with backend services for dynamic, context-aware responses",
       "Built conversational UI with real-time streaming responses",
     ],
-    tech: ["React", "Next.js", "AI/LLM Integration", "REST APIs"],
+    tech: ["Vue.js 2", "Stream Response", "AI/LLM Integration", "REST APIs"],
   },
 ];
 
@@ -80,12 +80,12 @@ const techStack = [
   {
     icon: "🖥️",
     title: "Frontend",
-    skills: ["React", "Next.js", "Vue.js 2 & 3", "TypeScript", "JavaScript", "Tailwind CSS"],
+    skills: ["React", "Next.js", "Vue.js 2 & 3", "Nuxt.js", "TypeScript", "JavaScript", "Tailwind CSS", "ShadCN UI", "ExtJS"],
   },
   {
     icon: "⚙️",
     title: "Backend",
-    skills: ["Laravel", "PHP", ".NET API Development"],
+    skills: ["Laravel", "PHP", "CodeIgniter", "Frappe ERP Framework", "Python", "Node.js", "Express.js", "PostgreSQL"],
   },
   {
     icon: "📱",
@@ -95,12 +95,12 @@ const techStack = [
   {
     icon: "🗄️",
     title: "Database",
-    skills: ["MySQL", "Firebase"],
+    skills: ["MySQL", "MariaDB", "Firebase", "MongoDB", "SQLite"],
   },
   {
     icon: "🚀",
     title: "DevOps",
-    skills: ["Docker", "Docker Compose", "GitHub Actions", "CI/CD", "Nginx"],
+    skills: ["Docker", "Docker Compose", "GitHub Actions", "CI/CD", "Nginx", "Kurbernetes"],
   },
   {
     icon: "🔧",
@@ -239,7 +239,15 @@ export default function Home() {
                 BS Computer Engineering
               </h3>
               <p className="text-accent-light text-sm font-medium">USTP – Cagayan de Oro City</p>
-              <p className="text-muted text-sm mt-1">2013 – 2018</p>
+              <p className="text-muted text-sm mt-1 mb-3">2013 – 2018</p>
+              <a
+                href="https://drive.google.com/file/d/1cPji_NRngj1Q3GKEKzyf3xNv5meQ3Tah/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
+              >
+                View Diploma →
+              </a>
             </div>
             <div className="bg-card border border-card-border rounded-2xl p-6">
               <h3 className="text-lg font-semibold text-foreground mb-1">
@@ -253,6 +261,36 @@ export default function Home() {
                 className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
               >
                 View Badges →
+              </a>
+            </div>
+            <div className="bg-card border border-card-border rounded-2xl p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-1">
+                Web Full Stack Development
+              </h3>
+              <p className="text-accent-light text-sm font-medium">DTI Certification</p>
+              <p className="text-muted text-sm mt-1 mb-3">Department of Trade and Industry – Philippines</p>
+              <a
+                href="https://drive.google.com/file/d/1eiF5hDEQk7WQiK4QDeNogQjehX8L8G0u/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
+              >
+                View Certificate →
+              </a>
+            </div>
+            <div className="bg-card border border-card-border rounded-2xl p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-1">
+                Mobile Application Developer
+              </h3>
+              <p className="text-accent-light text-sm font-medium">DTI Certification</p>
+              <p className="text-muted text-sm mt-1 mb-3">Department of Trade and Industry – Philippines</p>
+              <a
+                href="https://drive.google.com/file/d/1ChvG09om_Y9n_dvMlA8kPizYFUAaB_4e/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-light hover:text-accent text-sm font-medium transition-colors"
+              >
+                View Certificate →
               </a>
             </div>
           </div>
